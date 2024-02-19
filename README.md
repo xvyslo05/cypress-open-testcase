@@ -44,4 +44,4 @@ We welcome contributions and suggestions! If you'd like to contribute to the Cyp
 
 ## License
 
-This extension is licensed under the [MIT License](LICENSE).
+This extension is licensed under the MIT License.
