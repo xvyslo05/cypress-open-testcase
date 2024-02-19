@@ -2,7 +2,7 @@
   "name": "cypress-open-testcase",
   "displayName": "Test case lense",
   "description": "This extension gets the test case number and creates a codelens button to open the test case in GitHub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "xvyslo05",
   "engines": {
     "vscode": "^1.86.0"
