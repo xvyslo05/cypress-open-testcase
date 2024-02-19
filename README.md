@@ -12,17 +12,9 @@ Cypress Test Codelens is a Visual Studio Code extension that enhances your exper
 You can install the Cypress Test Codelens extension directly from the Visual Studio Code Marketplace:
 
 1. Open VS Code.
-2. Go to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
+2. Go to the Extensions view by clicking on the square icon on the sidebar.
 3. Search for "Test case lense".
 4. Click on the "Install" button.
-
-Alternatively, you can install it by launching the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) and typing:
-
-```
-ext install your-publisher-name.cypress-test-codelens
-```
-
-Replace `your-publisher-name` with the actual publisher name you used when publishing the extension.
 
 ## Usage
 
