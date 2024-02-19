@@ -24,6 +24,10 @@
   ],
   "logo": "resources/logo.png",
   "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xvyslo05/cypress-open-testcase.git"
+  },
   "contributes": {
     "commands": [
       {
