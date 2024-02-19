@@ -1,0 +1,53 @@
+{
+  "name": "cypress-open-testcase",
+  "displayName": "Test case lense",
+  "description": "This extension gets the test case number and creates a codelens button to open the test case in GitHub",
+  "version": "0.0.8",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "codelens",
+    "test case",
+    "cypress",
+    "github",
+    "issues",
+    "open"
+  ],
+  "icon": "resources/icon.webp",
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onCommand:cypressTestCodelens.openTestCase"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cypress-open-testcase.openTestCase",
+        "title": "Open test case"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.86.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
